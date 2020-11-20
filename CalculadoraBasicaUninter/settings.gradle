@@ -1,0 +1,2 @@
+rootProject.name='CalculadoraBasicaUninter'
+include ':app'

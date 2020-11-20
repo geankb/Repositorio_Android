@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.grupouninter.aula3.activityresult.SegundaActivity">
+
+    <RadioButton
+        android:id="@+id/rbOpcao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opção 1"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <RadioButton
+        android:id="@+id/rbOpcao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opção 2"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <RadioButton
+        android:id="@+id/rbOpcao3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opção 3"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="415dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
